@@ -11,13 +11,13 @@ CS104). The project aims to demonstrate foundational front-end concepts.
 
 All content and design choices chosen by the Author were created specifically for this project. This project is a fictional business website developed in stages as part of a web development course. Each phase builds on the previous assignment to progressively introduce core front-end concepts.
 
-## Phase 1: Static Homepage
+### Phase 1: Static Homepage
 The initial version focuses on building a single-page business homepage using semantic HTML and external CSS. It includes a business logo image, an introductory section, a list of services, navigation links for future pages, and basic styling for layout, colors, and typography.
 
-## Phase 2: Multi-Page Layout & Accessibility
+### Phase 2: Multi-Page Layout & Accessibility
 The second phase expands the site into a multi-page structure, including Home, Services, and Contact pages. A responsive navigation bar is introduced, along with consistent styling across pages using external stylesheets. Web accessibility best practices are applied, such as descriptive alt text for images and proper labeling of form elements.
 
-## Phase 3: JavaScript Interactivity
+### Phase 3: JavaScript Interactivity
 The final phase enhances the website with JavaScript-based interactivity. Features include a dynamic image gallery on the Services page, client-side form validation on the Contact page, and an interactive FAQ section. JavaScript and DOM manipulation are used to update page content dynamically without full page reloads, while maintaining accessibility and functionality standards.
 
 # Content
