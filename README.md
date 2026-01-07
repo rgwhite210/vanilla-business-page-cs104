@@ -20,13 +20,15 @@ The second phase expands the site into a multi-page structure, including Home, S
 ### Phase 3: JavaScript Interactivity
 The final phase enhances the website with JavaScript-based interactivity. Features include a dynamic image gallery on the Services page, client-side form validation on the Contact page, and an interactive FAQ section. JavaScript and DOM manipulation are used to update page content dynamically without full page reloads, while maintaining accessibility and functionality standards.
 
-# Content
+# Content Information
+
+### Source
 
 * Checkout the latest deployed version hosted on [Vercel](https://vanilla-business-page-cs104.vercel.app/).
 * Source code history and project files are available
   on [Github](https://github.com/rgwhite210/vanilla-business-page-cs104).
 
-# Author
+### Author
 
 Rachel White
 
