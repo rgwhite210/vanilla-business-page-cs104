@@ -30,6 +30,6 @@ The final phase enhances the website with JavaScript-based interactivity. Featur
 
 Rachel White
 
-## AI Assistance Disclosure
+### AI Assistance Disclosure
 
 This README was generated with the assistance of an AI tool and reviewed by the author for accuracy and clarity.
