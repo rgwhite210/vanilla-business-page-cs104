@@ -4,7 +4,7 @@ This project is intended for educational purposes only and does not represent a 
 
 # Vanilla Business Page – CS104
 
-This repository contains a simple, static business homepage created as part of an introductory web development course (
+This repository contains a simple, static business website created as part of an introductory web development course (
 CS104).
 
 The project demonstrates foundational front-end concepts using **vanilla HTML and CSS**, including semantic HTML
