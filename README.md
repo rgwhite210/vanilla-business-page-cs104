@@ -24,7 +24,7 @@ All content and design choices were created specifically for this project.
 
 ## Repository
 
-Source code and project files are available on [Github](https://github.com/rgwhite210/vanilla-business-page-cs104):
+Source code and project files are available on [Github](https://github.com/rgwhite210/vanilla-business-page-cs104).
 
 ## Notes
 
