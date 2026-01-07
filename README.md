@@ -1,15 +1,19 @@
 # vanilla-business-page-cs104
+
 Web Foundations Project Assignment
 
 # Vanilla Business Page – CS104
 
-This repository contains a simple, static business homepage created as part of an introductory web development course (CS104).
+This repository contains a simple, static business homepage created as part of an introductory web development course (
+CS104).
 
-The project demonstrates foundational front-end concepts using **vanilla HTML and CSS**, including semantic HTML structure, basic styling with CSS classes, and accessibility-conscious markup.
+The project demonstrates foundational front-end concepts using **vanilla HTML and CSS**, including semantic HTML
+structure, basic styling with CSS classes, and accessibility-conscious markup.
 
 ## Project Overview
 
 The site represents a fictional business and was designed to practice:
+
 - Proper HTML document structure
 - Use of semantic elements (`header`, `main`, `section`, `footer`)
 - External CSS for layout, colors, and typography
@@ -20,8 +24,7 @@ All content and design choices were created specifically for this project.
 
 ## Repository
 
-Source code and project files are available on GitHub:  
-https://github.com/rgwhite210/vanilla-business-page-cs104
+Source code and project files are available on [Github](https://github.com/rgwhite210/vanilla-business-page-cs104):
 
 ## Notes
 
