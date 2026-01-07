@@ -5,30 +5,28 @@ This project is intended for educational purposes only and does not represent a 
 # Vanilla Business Page – CS104
 
 This repository contains a simple, static business website created as part of an introductory web development course (
-CS104).
+CS104). The project aims to demonstrate foundational front-end concepts.
 
-The project demonstrates foundational front-end concepts using **vanilla HTML and CSS**, including semantic HTML
-structure, basic styling with CSS classes, and accessibility-conscious markup.
+# Project Overview
 
-## Project Overview
+All content and design choices chosen by the Author were created specifically for this project. This project is a fictional business website developed in stages as part of a web development course. Each phase builds on the previous assignment to progressively introduce core front-end concepts.
 
-The site represents a fictional business and was designed to practice:
+## Phase 1: Static Homepage
+The initial version focuses on building a single-page business homepage using semantic HTML and external CSS. It includes a business logo image, an introductory section, a list of services, navigation links for future pages, and basic styling for layout, colors, and typography.
 
-- Proper HTML document structure
-- Use of semantic elements (`header`, `main`, `section`, `footer`)
-- External CSS for layout, colors, and typography
-- Image usage with accessible `alt` text
-- Basic page layout and visual hierarchy
+## Phase 2: Multi-Page Layout & Accessibility
+The second phase expands the site into a multi-page structure, including Home, Services, and Contact pages. A responsive navigation bar is introduced, along with consistent styling across pages using external stylesheets. Web accessibility best practices are applied, such as descriptive alt text for images and proper labeling of form elements.
 
-All content and design choices were created specifically for this project.
+## Phase 3: JavaScript Interactivity
+The final phase enhances the website with JavaScript-based interactivity. Features include a dynamic image gallery on the Services page, client-side form validation on the Contact page, and an interactive FAQ section. JavaScript and DOM manipulation are used to update page content dynamically without full page reloads, while maintaining accessibility and functionality standards.
 
-## Content
+# Content
 
 * Checkout the latest deployed version hosted on [Vercel](https://vanilla-business-page-cs104.vercel.app/).
 * Source code history and project files are available
   on [Github](https://github.com/rgwhite210/vanilla-business-page-cs104).
 
-## Author
+# Author
 
 Rachel White
 
