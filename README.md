@@ -22,9 +22,11 @@ The site represents a fictional business and was designed to practice:
 
 All content and design choices were created specifically for this project.
 
-## Repository
+## Content
 
-Source code and project files are available on [Github](https://github.com/rgwhite210/vanilla-business-page-cs104).
+* Checkout the latest deployed version hosted on [Vercel](https://vanilla-business-page-cs104.vercel.app/).
+* Source code history and project files are available
+  on [Github](https://github.com/rgwhite210/vanilla-business-page-cs104).
 
 ## Author
 
