@@ -1,6 +1,6 @@
-# vanilla-business-page-cs104
+# Web Foundations Project Assignment
 
-Web Foundations Project Assignment
+This project is intended for educational purposes only and does not represent a real business.
 
 # Vanilla Business Page – CS104
 
@@ -25,10 +25,6 @@ All content and design choices were created specifically for this project.
 ## Repository
 
 Source code and project files are available on [Github](https://github.com/rgwhite210/vanilla-business-page-cs104).
-
-## Notes
-
-This project is intended for educational purposes only and does not represent a real business.
 
 ## Author
 
