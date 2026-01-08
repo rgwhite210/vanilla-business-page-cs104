@@ -91,7 +91,7 @@ ul li {
 }
 
 /* ===== Footer ===== */
-.footer1 {
+.header {
     background-color: #D6E3E6;
     padding: 1rem;
     font-size: 0.9rem;
@@ -100,7 +100,7 @@ ul li {
     text-align: center;
 }
 
-.footer2 {
+.footer {
     background-color: #D6E3E6;
     padding: 1rem;
     font-size: 0.9rem;
