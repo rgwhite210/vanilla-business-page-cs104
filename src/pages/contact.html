@@ -26,6 +26,58 @@
         <li><a href="../pages/contact.html">Contact</a></li>
     </ul>
 </nav>
-<h1>Contact Us</h1>
+<div class="contact-section">
+    <h1>Contact Us</h1>
+    <p class="main">Have a question or want to schedule care for your dog? We’d love to hear from you. Reach out and
+        tell us a little
+        about what you’re looking for, and we’ll get back to you as soon as possible.</p>
+</div>
+
+<section class="contact-form">
+    <h2>Send a Message</h2>
+    <p class="main">Please include a few details so we can better understand your needs and provide the best care for
+        your dog.</p>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+            <label for="service">What service are you interested in?</label>
+            <select id="service" name="service" required>
+                <option value="">Select</option>
+                <option value="walking">Dog Walking</option>
+                <option value="sitting">Pet Sitting</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="button">Send Message</button>
+    </form>
+    <p class="form-note">Thank you! We will respond within 24 hours.</p>
+</section>
+
+<div class="logo-bottom">
+    <img src="../images/Logo_ChatGPT.png" alt="ChatGPT generated logo image of Rachel's dogs">
+</div>
+<footer class="footer">
+    <p class="footer-text">
+        © 2026 Canine Companions LLC. This site was created as part of a web development course and does not represent
+        nor is affiliated with a real company. Open-sourced on <a
+            href="https://github.com/rgwhite210/vanilla-business-page-cs104" target="_blank">Github</a> | Coded by <a
+            href="https://github.com/rgwhite210" target="_blank">Rachel White</a> 👩‍
+    </p>
+</footer>
 </body>
 </html>

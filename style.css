@@ -256,3 +256,39 @@ li.services {
     border-radius: 1rem;
     padding-left: 1rem;
 }
+
+/*contact form */
+section.contact-form {
+    margin-bottom: 6rem;
+}
+
+.form-group {
+    margin-left: .5rem;
+    max-width: 600px;
+    padding: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+    color: #1E7A57;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #E7C789;
+    border-radius: 8px;
+    font-family: inherit;
+}
+
+.contact-form .button {
+    margin-left: 1rem;
+}
+
+.form-note {
+    margin: 1rem;
+    font-size: 0.95rem;
+    font-style: italic;
+}
