@@ -158,9 +158,18 @@ li.services {
     margin: 1rem;
     border-radius: 8px;
     background-color: #D6E3E6;
-    padding: .5rem;
+    padding: 1rem;
 }
 
+/* ===== Services List ===== */
+ul.services {
+    max-width: 500px;
+    margin-left: 5rem;
+}
+
+li.services {
+    margin-bottom: 1rem;
+}
 
 /* ===== Footer ===== */
 
@@ -207,7 +216,7 @@ li.services {
 }
 
 .button:active {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
