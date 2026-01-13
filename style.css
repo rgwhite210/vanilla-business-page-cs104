@@ -220,6 +220,20 @@ li.services {
     transform: translateY(4px);
 }
 
+.button:hover,
+.button:focus {
+    background-color: #145A3D; /* slightly darker green */
+    transform: translateY(-2px);
+    box-shadow: 0 10px #777;
+}
+
+.button {
+    transition: background-color 0.15s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+
 /* services menu */
 .services-menu {
     display: flex;
@@ -260,7 +274,12 @@ li.services {
 
 /*contact form */
 section.contact-form {
-    margin-bottom: 6rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin: 2rem 1rem;
+    max-width: 750px;
+    border-bottom: 4px solid #E7C789;
 }
 
 .form-group {
@@ -365,5 +384,12 @@ section.faq {
     transition: transform 0.15s ease;
 }
 
+/*form validation*/
+#form-feedback {
+    margin: 1rem;
+    font-weight: bold;
+}
 
-
+.input-error {
+    border-color: #C4550A;
+}
