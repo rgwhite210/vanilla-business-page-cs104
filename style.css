@@ -244,6 +244,7 @@ li.services {
 .menu-card:hover {
     transform: translateY(-4px);
     transition: transform 0.2s ease;
+    cursor: pointer;
 
 }
 
@@ -292,3 +293,32 @@ input, select, textarea {
     font-size: 0.95rem;
     font-style: italic;
 }
+
+/* gallery*/
+.service-image-container {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.service-card-image {
+    max-width: 75%;
+    border-radius: 6px;
+}
+
+.card-toggle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-left: 0.5rem;
+    user-select: none;
+    color: #2f5d50; /* matches your green tone */
+}
+
+.menu-card:hover .card-toggle {
+    opacity: 0.7;
+}
+
+.menu-card.active {
+    box-shadow: 0 0 0 2px #2f5d50;
+}
+
