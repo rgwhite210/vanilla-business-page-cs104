@@ -168,16 +168,39 @@ li.services {
 .pets-container {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 
-.pets {
-    display: inline-block;
-    margin: 1rem;
-    border-radius: 8px;
-    background-color: #D6E3E6;
-    padding: 1rem;
+.pet-card {
+    flex: 1 1 300px; /* two cards side by side */
+    max-width: 350px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
+.pet-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+
+}
+
+.pet-description {
+    display: none;
+    margin-top: 0.75rem;
+}
+
+.pet-card.active .pet-description {
+    display: block;
+}
+
+.pet-image:hover {
+    opacity: 0.9;
+    transform: translateY(-4px);
+    box-shadow: 0 0 0 2px #2f5d50;
 }
 
 /* ===== Services List ===== */
