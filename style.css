@@ -135,6 +135,11 @@ li.services {
     justify-content: center;
     margin: 1rem;
     border-radius: 8px;
+    background: linear-gradient(
+            to bottom,
+            transparent,
+            rgba(214, 227, 230, 0.4)
+    );
 }
 
 .logo-bottom img {
@@ -143,8 +148,22 @@ li.services {
     display: inline-block;
     background-color: #D6E3E6;
     padding: .5rem;
+    transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
+.logo-bottom img:hover {
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo a:hover,
+.logo a:focus {
+    opacity: 0.85;
+}
 
 .pets-container {
     display: flex;
