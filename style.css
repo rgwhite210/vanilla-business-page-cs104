@@ -322,3 +322,48 @@ input, select, textarea {
     box-shadow: 0 0 0 2px #2f5d50;
 }
 
+/*faq styles*/
+section.faq {
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.faq-card {
+    background-color: #D6E3E6;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.faq-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 0.75rem;
+}
+
+.faq-toggle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2f5d50;
+    user-select: none;
+}
+
+.faq-card.active {
+    box-shadow: 0 0 0 2px #2f5d50;
+    background-color: #e4eff2;
+}
+
+.faq-card:hover {
+    transform: translateY(-2px);
+    transition: transform 0.15s ease;
+}
+
+
+
