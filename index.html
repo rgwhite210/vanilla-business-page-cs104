@@ -18,7 +18,9 @@
 </header>
 <nav class="navbar">
     <div class="logo">
-        <img src="src/images/Logo_ChatGPT.png" alt="ChatGPT generated logo image of Rachel's dogs">
+        <a href="index.html">
+            <img src="src/images/Logo_ChatGPT.png" alt="ChatGPT generated logo image of Rachel's dogs">
+        </a>
     </div>
     <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
@@ -40,15 +42,6 @@
     <p class="main">Canine Companions was inspired by Henrick and Raeya, our two very special dogs, who represent
         everything
         we love about canine companionship.</p>
-    <p class="main">Raeya is a true social butterfly. Friendly, outgoing, and always ready to make a new friend, she
-        brings
-        warmth and joy wherever she goes. Her playful spirit and gentle nature remind us how important connection,
-        trust,
-        and positive interactions are in a dog’s daily life.</p>
-    <p class="main">Henrick, on the other hand, is sweet, thoughtful, and a little shy. He’s a handsome boy with a calm
-        presence, showing us that every dog has their own pace and personality. Henrick has taught us the importance of
-        patience, understanding, and creating a safe, comfortable environment where dogs can feel secure and cared
-        for.</p>
     <p class="main">Together, Raeya and Henrick shaped our brand, logo, and mission. They inspire us to provide
         thoughtful,
         compassionate, and personalized care for dogs of all breeds and sizes. Whether your dog is outgoing like Raeya
@@ -57,10 +50,37 @@
         you
         can have complete peace of mind.</p>
 
-    <div class="pets-container">
-        <img class="pets" src="src/images/IMG_1219.jpg" alt="picture of Rachel's dog" width="300" height="400">
-        <img class="pets" src="src/images/IMG_2286.jpg" alt="picture of Rachel's dog" width="300" height="400">
-    </div>
+    <section class="pets-section">
+        <h2>Meet Our Dogs</h2>
+        <div class="pets-container">
+            <div class="pet-card">
+                <img
+                        src="src/images/IMG_1219.jpg"
+                        alt="Henrick, a calm and gentle dog"
+                        class="pet-image"
+                >
+                <p class="pet-description">
+                    Henrick is sweet, thoughtful, and a little shy. He has a calm presence and shows us the importance
+                    of
+                    patience, understanding, and creating a safe, comfortable environment.
+                </p>
+            </div>
+
+            <div class="pet-card">
+                <img
+                        src="src/images/IMG_2286.jpg"
+                        alt="Raeya, a friendly and playful dog"
+                        class="pet-image"
+                >
+                <p class="pet-description">
+                    Raeya is a true social butterfly. Friendly, outgoing, and always ready to make a new friend, she
+                    brings
+                    warmth and joy wherever she goes.
+                </p>
+            </div>
+        </div>
+    </section>
+
 
     <h2>Our Services</h2>
     <ul class="services">
@@ -83,6 +103,61 @@
     <div class="button-container-2">
         <a href="src/pages/contact.html" class="button">Contact Us</a>
     </div>
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-card">
+            <div class="faq-header">
+                <p class="faq-question">What areas do you serve?</p>
+                <span class="faq-toggle">+</span>
+            </div>
+            <p class="faq-answer">
+                We currently provide services within our local community and nearby neighborhoods.
+            </p>
+        </div>
+
+        <div class="faq-card">
+            <div class="faq-header">
+                <p class="faq-question">Do you offer overnight pet sitting?</p>
+                <span class="faq-toggle">+</span>
+            </div>
+            <p class="faq-answer">
+                Yes! We offer both overnight care and extended in-home pet sitting based on your needs.
+            </p>
+        </div>
+
+        <div class="faq-card">
+            <div class="faq-header">
+                <p class="faq-question">What types of dogs do you work with?</p>
+                <span class="faq-toggle">+</span>
+            </div>
+            <p class="faq-answer">
+                We care for dogs of all breeds, sizes, and temperaments. Every dog is unique, and we tailor our approach
+                to fit their individual needs and personality.
+            </p>
+        </div>
+        <div class="faq-card">
+            <div class="faq-header">
+                <p class="faq-question">Can you accommodate special routines or requests?</p>
+                <span class="faq-toggle">+</span>
+            </div>
+            <p class="faq-answer">
+                Absolutely. We’re happy to follow specific feeding schedules, walking routines, or behavioral guidelines
+                to keep your dog’s day consistent.
+            </p>
+        </div>
+        <div class="faq-card">
+            <div class="faq-header">
+                <p class="faq-question">Are you insured or experienced with pet care?</p>
+                <span class="faq-toggle">+</span>
+            </div>
+            <p class="faq-answer">
+                Yes. We take safety and responsibility seriously and have experience caring for dogs with a variety of
+                needs and personalities.
+            </p>
+        </div>
+    </section>
+
 </main>
 <div class="logo-bottom">
     <img src="src/images/Logo_ChatGPT.png" alt="ChatGPT generated logo image of Rachel's dogs">
@@ -96,4 +171,6 @@
     </p>
 </footer>
 </body>
+<script src="src/features/faq.js"></script>
+<script src="src/features/pets.js"></script>
 </html>

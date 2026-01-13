@@ -18,7 +18,9 @@
 </header>
 <nav class="navbar">
     <div class="logo">
-        <img src="../images/Logo_ChatGPT.png" alt="ChatGPT generated logo image of Rachel's dogs">
+        <a href="../../index.html">
+            <img src="../images/Logo_ChatGPT.png" alt="ChatGPT generated logo image of Rachel's dogs">
+        </a>
     </div>
     <ul class="nav-links">
         <li><a href="../../index.html">Home</a></li>
@@ -33,13 +35,12 @@
             tell us a little
             about what you’re looking for, and we’ll get back to you as soon as possible.</p>
     </div>
-
     <section class="contact-form">
         <h2>Send a Message</h2>
         <p class="main">Please include a few details so we can better understand your needs and provide the best care
             for
             your dog.</p>
-        <form action="#" method="post">
+        <form id="contactForm" action="#" method="post" novalidate>
             <div class="form-group">
                 <label for="name">Full Name</label>
                 <input type="text" id="name" name="name" required>
@@ -49,7 +50,7 @@
                 <input type="email" id="email" name="email" required>
             </div>
             <div class="form-group">
-                <label for="phone">Phone Number</label>
+                <label for="phone">Phone Number (Optional)</label>
                 <input type="tel" id="phone" name="phone">
             </div>
             <div class="form-group">
@@ -66,8 +67,8 @@
                 <textarea id="message" name="message" rows="3" required></textarea>
             </div>
             <button type="submit" class="button">Send Message</button>
+            <p id="form-feedback" aria-live="polite"></p>
         </form>
-        <p class="form-note">Thank you! We will respond within 24 hours.</p>
     </section>
 </main>
 <div class="logo-bottom">
@@ -82,4 +83,5 @@
     </p>
 </footer>
 </body>
+<script src="../features/contact-form.js"></script>
 </html>

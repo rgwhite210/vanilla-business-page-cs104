@@ -135,6 +135,11 @@ li.services {
     justify-content: center;
     margin: 1rem;
     border-radius: 8px;
+    background: linear-gradient(
+            to bottom,
+            transparent,
+            rgba(214, 227, 230, 0.4)
+    );
 }
 
 .logo-bottom img {
@@ -143,22 +148,59 @@ li.services {
     display: inline-block;
     background-color: #D6E3E6;
     padding: .5rem;
+    transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
+.logo-bottom img:hover {
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo a:hover,
+.logo a:focus {
+    opacity: 0.85;
+}
 
 .pets-container {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 
-.pets {
-    display: inline-block;
-    margin: 1rem;
-    border-radius: 8px;
-    background-color: #D6E3E6;
-    padding: 1rem;
+.pet-card {
+    flex: 1 1 300px; /* two cards side by side */
+    max-width: 350px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
+.pet-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+
+}
+
+.pet-description {
+    display: none;
+    margin-top: 0.75rem;
+}
+
+.pet-card.active .pet-description {
+    display: block;
+}
+
+.pet-image:hover {
+    opacity: 0.9;
+    transform: translateY(-4px);
+    box-shadow: 0 0 0 2px #2f5d50;
 }
 
 /* ===== Services List ===== */
@@ -220,6 +262,20 @@ li.services {
     transform: translateY(4px);
 }
 
+.button:hover,
+.button:focus {
+    background-color: #145A3D; /* slightly darker green */
+    transform: translateY(-2px);
+    box-shadow: 0 10px #777;
+}
+
+.button {
+    transition: background-color 0.15s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+
 /* services menu */
 .services-menu {
     display: flex;
@@ -244,6 +300,7 @@ li.services {
 .menu-card:hover {
     transform: translateY(-4px);
     transition: transform 0.2s ease;
+    cursor: pointer;
 
 }
 
@@ -259,7 +316,12 @@ li.services {
 
 /*contact form */
 section.contact-form {
-    margin-bottom: 6rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin: 2rem 1rem;
+    max-width: 750px;
+    border-bottom: 4px solid #E7C789;
 }
 
 .form-group {
@@ -291,4 +353,85 @@ input, select, textarea {
     margin: 1rem;
     font-size: 0.95rem;
     font-style: italic;
+}
+
+/* gallery*/
+.service-image-container {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.service-card-image {
+    max-width: 75%;
+    border-radius: 6px;
+}
+
+.card-toggle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-left: 0.5rem;
+    user-select: none;
+    color: #2f5d50; /* matches your green tone */
+}
+
+.menu-card:hover .card-toggle {
+    opacity: 0.7;
+}
+
+.menu-card.active {
+    box-shadow: 0 0 0 2px #2f5d50;
+}
+
+/*faq styles*/
+section.faq {
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.faq-card {
+    background-color: #D6E3E6;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.faq-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 0.75rem;
+}
+
+.faq-toggle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2f5d50;
+    user-select: none;
+}
+
+.faq-card.active {
+    box-shadow: 0 0 0 2px #2f5d50;
+    background-color: #e4eff2;
+}
+
+.faq-card:hover {
+    transform: translateY(-2px);
+    transition: transform 0.15s ease;
+}
+
+/*form validation*/
+#form-feedback {
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.input-error {
+    border-color: #C4550A;
 }

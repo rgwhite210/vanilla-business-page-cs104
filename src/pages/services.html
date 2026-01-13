@@ -18,7 +18,9 @@
 </header>
 <nav class="navbar">
     <div class="logo">
-        <img src="../images/Logo_ChatGPT.png" alt="ChatGPT generated logo image of Rachel's dogs">
+        <a href="../../index.html">
+            <img src="../images/Logo_ChatGPT.png" alt="ChatGPT generated logo image of Rachel's dogs">
+        </a>
     </div>
     <ul class="nav-links">
         <li><a href="../../index.html">Home</a></li>
@@ -32,43 +34,56 @@
         trust. Here are some of the services we offer though we can tailor to your needs.</p>
     <div class="services-menu">
         <div class=menu-container>
-            <div class="menu-card">
+            <div class="menu-card" data-image="../images/dog-walker.png" data-alt="Multiple dogs on a leash"
+            >
                 <p class="menu-title"><b>Dog Walking</b></p>
                 <ul class="menu-body">
                     <li>Ideal for busy workdays</li>
                     <li>Tailored pace and route</li>
-                    <li>One-on-one attention</li>
+                    <li>Groups or one-on-one attention</li>
                 </ul>
+                <!-- JS will inject image here -->
+                <div class="service-image-container"></div>
+                <span class="card-toggle" aria-hidden="true">+</span>
             </div>
         </div>
         <div class=menu-container>
-            <div class="menu-card">
+            <div class="menu-card" data-image="../images/pet-sitting.jpg" data-alt="playing with dog">
                 <p class="menu-title"><b>Pet Sitting</b></p>
                 <ul class="menu-body">
                     <li>In-home care options</li>
                     <li>Overnight care vs boarding</li>
                     <li>Play and comfort</li>
                 </ul>
+                <!-- JS will inject image here -->
+                <div class="service-image-container"></div>
+                <span class="card-toggle" aria-hidden="true">+</span>
             </div>
         </div>
         <div class=menu-container>
-            <div class="menu-card">
+            <div class="menu-card" data-image="../images/dietary-support.jpg" data-alt="dog sniffing vegetables">
                 <p class="menu-title"><b>Dietary Support</b></p>
                 <ul class="menu-body">
                     <li>Special diets</li>
                     <li>Medication reminders</li>
                     <li>Frequent updates</li>
                 </ul>
+                <!-- JS will inject image here -->
+                <div class="service-image-container"></div>
+                <span class="card-toggle" aria-hidden="true">+</span>
             </div>
         </div>
         <div class=menu-container>
-            <div class="menu-card">
+            <div class="menu-card" data-image="../images/social.jpeg" data-alt="dogs playing together">
                 <p class="menu-title"><b>Social Interaction</b></p>
                 <ul class="menu-body">
                     <li>Mental stimulation</li>
                     <li>Companionship care</li>
                     <li>Playtime based on personality</li>
                 </ul>
+                <!-- JS will inject image here -->
+                <div class="service-image-container"></div>
+                <span class="card-toggle" aria-hidden="true">+</span>
             </div>
         </div>
     </div>
@@ -100,4 +115,5 @@
     </p>
 </footer>
 </body>
+<script src="../features/gallery.js"></script>
 </html>
